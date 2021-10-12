@@ -1,5 +1,17 @@
 // Prime Number
 
+// Question
+// Take input from users the range and then print all the prime numbers within that range. Also print the total number of print numbers.
+
+// Example of output :
+
+// Enter the range:
+// 0 (user entered)
+// 10 (user entered)
+
+// Prime numbers in the given range are: 2 3 5 7
+// There are 4 prime numbers in the given range.
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>
