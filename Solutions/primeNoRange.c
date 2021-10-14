@@ -37,7 +37,7 @@ bool checkPrime(int n)
 int main()
 {
     int a,b; 
-    // printf("Enter a range  to be checked \n");
+    printf("Enter a range  to be checked \n");
     scanf("%d  %d",&a,&b);
     int count = 0;
     printf("Prime numbers in the given range are: ");
