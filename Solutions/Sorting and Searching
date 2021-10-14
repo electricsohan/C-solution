@@ -3,6 +3,7 @@ Issue ID:-Sorting and Searching #44
 
  
 #include <stdio.h>
+#include <stdlib.h>
  
 void swap(int* xp, int* yp)
 {
@@ -42,8 +43,23 @@ void printArray(int arr[], int size)
  
 // Driver code
 int main()
-{
-    int arr[] = { 0, 23, 14, 12, 9 };
+{   // User inputs in dynamically allocated array
+     printf("Enter number of elements:");
+    scanf("%d",&num);
+    int* arr[] =(*int)malloc(num*sizeof(int)); 
+     if (arr == NULL) {
+        printf("Memory not allocated.\n");
+        exit(0);
+    }
+    else {
+ 
+        // Memory has been successfully allocated
+ 
+        // Get the elements of the array
+        for (int i = 0; i < n; ++i) {
+            arr[i] = i + 1;
+        }
+        
     int n = sizeof(arr) / sizeof(arr[0]);
     printf("Original array: \n");
     printArray(arr, n);
