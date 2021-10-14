@@ -84,7 +84,24 @@ void printArray(int A[], int size)
 /* Driver code */
 int main()
 {
-    int arr[] = { 12, 11, 13, 5, 6, 7 };
+  // User inputs in dynamically allocated array
+     printf("Enter number of elements:");
+    scanf("%d",&num);
+    int* arr[] =(*int)malloc(num*sizeof(int)); 
+     if (arr == NULL) {
+        printf("Memory not allocated.\n");
+        exit(0);
+    }
+    else {
+
+        // Memory has been successfully allocated
+
+        // Get the elements of the array
+        for (int i = 0; i < n; ++i) {
+            arr[i] = i + 1;
+        }
+
+   
     int arr_size = sizeof(arr) / sizeof(arr[0]);
   
     printf("Given array is \n");
