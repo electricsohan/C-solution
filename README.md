@@ -1,5 +1,5 @@
-# C-solution
-Collection of C programs
+# C-Solution
+Collection of C Programs
 
 ![logo-hacktoberfest-2](https://user-images.githubusercontent.com/91674834/136263478-f37c8a4e-2659-4ccd-b348-a8bc453d5b39.jpg)
 
@@ -23,10 +23,10 @@ Different types of contribution practices for this repository -
   Step a) Click on Issues tab <br>
   Step b) Click on New Issue button <br>
   Step c) Click Get Started button <br>
-  Step d) Fill a short description form <br>
+  Step d) Fill a Short Description form <br>
   Step e) Press Submit New Issue button <br>
-  Step f) Add a comment after succeffully creating the issue: "Please add label 'WithSolution'!"
-  Step g) By adding this label, your issue with be automatically be assigned to you. 
+  Step f) Add a Comment after successfully creating the issue: "Please add label 'WithSolution'!"<br>
+  Step g) By adding this label, your issue with be automatically be assigned to you. <br>
   Step h) Now you can workout the solution and generate PR(Pull request).
   
 ##### Note: Please do not comment on an issue labelled as "WithSolution". This issue is reserved for its author only!
@@ -37,21 +37,21 @@ Different types of contribution practices for this repository -
   Step a) Click on Issues tab <br>
   Step b) Click on New Issue button <br>
   Step c) Click Get Started button <br>
-  Step d) Fill a short description form <br>
+  Step d) Fill a Short Description form <br>
   Step e) Press Submit New Issue button <br>
-  Step f) Add a comment after succeffully creating the issue: "Please add label 'SolutionRequired'!"
+  Step f) Add a Comment after successfully creating the issue: "Please add label 'SolutionRequired'!"
   
   ### NOTE - Adding question and/or solution of any ongoing live challenges may lead to permanent ban from repository
   
 #### 3) Add a solution
 - Steps - <br>
-  Step a) Click on Issues tab <br>
+  Step a) Click on issues tab <br>
   Step b) Click on issue you would like to work on <br>
-  Step c) Add a comment: I would like to work on this issue,Kindly assign it to me.
+  Step c) Add a comment: I would like to work on this issue,kindly assign it to me.
   
   You can workout the solution and generate Pull Request once you are assigned the issue.
   
-  # Follow the ISSUE_TEMPLATE and PR_TEMPLATE before genrating issues and PRs!
+  # Follow the ISSUE_TEMPLATE and PR_TEMPLATE before generating issues and PRs!
   # Please Note, Its First Come First Serve!
   
 <br>
