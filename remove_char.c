@@ -7,7 +7,7 @@ int main()
   	int i, len, j;
  
   	printf("enter string\n");
-  	gets(str);
+  	fgets(str, 100, stdin);
   	
   	printf("enter target character\n ");
   	scanf("%c", &ch);
